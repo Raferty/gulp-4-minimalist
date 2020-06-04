@@ -1,0 +1,28 @@
+@import './utils/variables';
+
+// Mixin
+
+@import './mixin/global';
+
+@import './mixin/absolutecenter';
+
+@import './mixin/font-face';
+
+@import './mixin/triangle';
+
+@import './mixin/hamburger';
+
+@import './mixin/media';
+
+// Global
+
+@import './common/global';
+
+body {
+    font-family: $font-family;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: auto;
+}

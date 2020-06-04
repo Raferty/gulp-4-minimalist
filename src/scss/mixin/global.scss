@@ -1,0 +1,23 @@
+/// mixin
+
+@mixin font-size($sizeValue) {
+    font-size: ($sizeValue / 16 ) + rem;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+@mixin border($width, $style, $color) {
+    border-width: $width;
+    border-style: $style;
+    border-color: $color;
+}
+
+@mixin color($color, $opacity: 1) {
+    color: rgba($color, $opacity);
+}
+
+@mixin background-color($color, $opacity: 1) {
+    background-color: rgba($color, $opacity);
+}

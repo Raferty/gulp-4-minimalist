@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Gulp Minimalist</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,Chrome=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    @@include('./components/styles.html')
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1>Gulp 4 Minimalist</h1>
+        <p>Minimalist сборка на основе Gulp 4</p>
+        <h2>Input elements</h2>
+        <div>
+            <input type="text" placeholder="input text" value="">
+            <input type="password" placeholder="input password" value="">
+            <input type="tel" placeholder="input tel" value="">
+
+            <select>
+                <option value="0">select defailt</option>
+                <option value="1">select 1</option>
+                <option value="2">select 2</option>
+            </select>
+
+            <textarea placeholder="textarea"></textarea>
+
+            <button class="button" type="button">
+                <span>button</span>
+            </button>
+        </div>
+    </div>
+
+    @@include('./components/scripts.html')
+</body>
+</html>
